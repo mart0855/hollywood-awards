@@ -1,0 +1,106 @@
+@font-face{
+    font-family:"Ted Next Light";
+    src:url("../../fonts/TedNext/TedNext-Light.eot?#iefix");
+    src:url("../../fonts/TedNext/TedNext-Light.eot?#iefix") format("eot"),url("../../fonts/TedNext/TedNext-Light.woff") format("woff"),url("../../fonts/TedNext/TedNext-Light.svg") format("svg");
+}
+@font-face{
+    font-family:"Ted Next Regular";
+    src:url("../../fonts/TedNext/TedNext-Regular.eot?#iefix");
+    src:url("../../fonts/TedNext/TedNext-Regular.eot?#iefix") format("eot"),url("../../fonts/TedNext/TedNext-Regular.woff") format("woff"),url("../../fonts/TedNext/TedNext-Regular.svg") format("svg");
+}
+@font-face{
+    font-family:"Ted Next Medium";
+    src:url("../../fonts/TedNext/TedNext-Medium.eot?#iefix");
+    src:url("../../fonts/TedNext/TedNext-Medium.eot?#iefix") format("eot"),url("../../fonts/TedNext/TedNext-Medium.woff") format("woff"),url("../../fonts/TedNext/TedNext-Medium.svg") format("svg");
+}
+@font-face{
+    font-family:"Ted Next Bold";
+    src:url("../../fonts/TedNext/TedNext-Bold.eot?#iefix");
+    src:url("../../fonts/TedNext/TedNext-Bold.eot?#iefix") format("eot"),url("../../fonts/TedNext/TedNext-Bold.woff") format("woff"),url("../../fonts/TedNext/TedNext-Bold.svg") format("svg");
+}
+body{
+    padding: 0; margin: 0;
+    font-family: "Ted Next Regular", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0; padding: 0; font-size: inherit; font-weight: inherit;
+}
+.cc {
+    color: #da291c !important;
+}            
+.numbersHeadWrap{
+    border-bottom: 3px solid #dfdfdf;
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+    width: 100%;
+}
+.numbersHead{
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+    width: 95%;
+}
+.numbersHead__heading{
+    display: inline-block;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-radius: 0 0 10px 10px;
+    border-right: 1px solid #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);                
+    font-size: 1.25em;
+    padding: 0.5em 1em;
+}
+
+.numbersSection{
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.35);
+    color: #5a5a5a;
+    margin: 1.875em auto 0;
+    max-width: 1000px;
+    width: 98%;
+}
+.numbersSection__heading{
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #ededed 0%, #ebebeb 100%) repeat scroll 0 0;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 1em 2%;
+    text-shadow: 1px 1px 0 #fff;
+    text-transform: capitalize;
+    font-family:"Ted Next Medium";
+}
+.numbersSection__list{
+    list-style: none;
+    width: 95%; margin: 0 auto; 
+    padding: 2.5% 0;    
+    display: table;
+}
+.numbersSection__item{
+    display: table-row;                
+}
+.numbersSection__item:nth-child(even){
+    background-color: #f3f3f3;
+}
+.numbersSection__subHeading, .numbersSection__value{
+    display: table-cell; padding: 0.25em 0.5em;
+}
+.numbersSection__value{
+    text-align: right;
+}
+.contentInfo{
+    margin-top: 3.75em;
+    background: #fff none repeat scroll 0 0;
+    border-top: 2px solid #dfdfdf;
+    box-sizing: border-box;
+    display: table;
+    font-size: 0.75em;
+    padding: 1em 2% 5em;
+    text-transform: capitalize;
+    width: 100%;
+}
+.contestInfo__heading, .contestInfo__dates{
+    display: table-cell;
+}
+.contestInfo__dates{
+    text-align: right;
+}
